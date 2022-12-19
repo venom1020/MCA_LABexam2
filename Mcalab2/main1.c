@@ -8,7 +8,7 @@ int main()
 	{ rec=rec_char();
 		if(rec=='A' || rec=='a')
 			clockwise();
-		else
+		if(rec=='C'|| rec=='c')
 			anticlockwise();
 	}
 	return 0;
